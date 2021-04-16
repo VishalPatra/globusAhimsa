@@ -271,7 +271,7 @@ a:hover {
 
 /*------/ Space Padding /------*/
 .section-t8 {
-  padding-top: 8rem;
+  padding-top: 4rem;
 }
 
 @media (max-width: 767px) {
@@ -611,8 +611,8 @@ a:hover {
 .navbar-default {
   transition: all .5s ease-in-out;
   background-color: #ffffff;
-  padding-top: 28px;
-  padding-bottom: 28px;
+  padding-top: 18px;
+  padding-bottom: 18px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   box-shadow: 1px 2px 15px rgba(100, 100, 100, 0.3);
@@ -706,8 +706,8 @@ a:hover {
 
 .navbar-default.navbar-reduce {
   transition: all .5s ease-in-out;
-  padding-top: 19px;
-  padding-bottom: 19px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .navbar-default.navbar-reduce .nav-link {
@@ -781,6 +781,9 @@ a:hover {
   visibility: visible;
   opacity: 1;
   filter: alpha(opacity=1);
+}
+.navbar-nav{
+  padding-right: 3rem;
 }
 
 /*------/ Hamburger Navbar /------*/
@@ -1102,7 +1105,8 @@ a:hover {
 
 /*------/ Intro Single /------*/
 .intro-single {
-  padding: 12rem 0 3rem;
+  padding: 4rem 0 3rem;
+  background-color:ghostwhite;
 }
 
 @media (max-width: 767px) {
@@ -1296,7 +1300,9 @@ a:hover {
 .card-header-a {
   padding: 0 1rem;
 }
-
+.card-header-e {
+  display: block;
+}
 .card-header-a .card-title-a {
   color: #ffffff;
   margin-bottom: 0;
@@ -1634,6 +1640,14 @@ a:hover {
   position: relative;
   border: 5px solid #DAA520;
 }
+.card-box-co{
+  position: relative;
+  border: 5px solid #DAA520;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 1px 5px #ffab02;
+  border-radius: 15%;
+}
 
 @media (max-width: 767px) {
   .card-box-c {
@@ -1824,6 +1838,7 @@ a:hover {
   width: 300px;
   font-weight: 700;
   text-align: right;
+  background-color: #555;
 }
 
 .about-img-box {
