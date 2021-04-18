@@ -316,7 +316,7 @@ a:hover {
 
 /*------/ Title /------*/
 .title-wrap {
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
 .title-a {
@@ -1639,12 +1639,14 @@ a:hover {
 .card-box-c {
   position: relative;
   border: 5px solid #DAA520;
+  padding: 18px;
 }
 .card-box-co{
   position: relative;
   border: 5px solid #DAA520;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
+  margin: 25px;
   box-shadow: 1px 5px #ffab02;
   border-radius: 15%;
 }
@@ -1700,7 +1702,10 @@ a:hover {
     font-size: 2.5rem;
   }
 }
-
+.title-dc {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
 /*======================================
 //--//-->   AGENTS - CARD-D
 ======================================*/
@@ -1832,13 +1837,12 @@ a:hover {
   position: absolute;
   letter-spacing: 0;
   transform: rotate(-90deg);
-  top: 50px;
+  top: 100px;
   text-align: left;
   font-size: 1.8rem;
   width: 300px;
   font-weight: 700;
-  text-align: right;
-  background-color: #555;
+  padding-bottom: 20px;
 }
 
 .about-img-box {
@@ -1881,7 +1885,7 @@ a:hover {
 
 @media (min-width: 992px) {
   .sinse-box {
-    padding: 3rem 4.5rem;
+    opacity: 0.9;
   }
 }
 
@@ -2167,4 +2171,17 @@ footer .copyright-footer {
 
 footer .credits {
   font-size: 14px;
+}
+
+/*------- Services -----*/
+.img-services
+{
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+/*----- Navbar hidden ---*/
+#navbarDropdown{
+  display:inherit;
 }
