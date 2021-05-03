@@ -109,6 +109,8 @@ a:hover {
   color: #000000;
   font-size: 2rem;
   font-weight: 600;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
 }
 
 @media (max-width: 767px) {
@@ -611,8 +613,8 @@ a:hover {
 .navbar-default {
   transition: all .5s ease-in-out;
   background-color: #ffffff;
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding-top: 3px;
+  padding-bottom: 7px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   box-shadow: 1px 2px 15px rgba(100, 100, 100, 0.3);
@@ -706,8 +708,8 @@ a:hover {
 
 .navbar-default.navbar-reduce {
   transition: all .5s ease-in-out;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .navbar-default.navbar-reduce .nav-link {
